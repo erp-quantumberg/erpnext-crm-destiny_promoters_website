@@ -1,5 +1,5 @@
 app_name = "destiny_promoters_website"
-app_title = "Destiny Developers & Promoters Website"
+app_title = "destiny_promoters_website"
 app_publisher = "Nitish"
 app_description = "Building a new fresh website for Destiny Developers & Promoters"
 app_email = "nitishmashal0@gmail.com"
@@ -15,7 +15,7 @@ app_license = "mit"
 # 	{
 # 		"name": "destiny_promoters_website",
 # 		"logo": "/assets/destiny_promoters_website/logo.png",
-# 		"title": "Destiny Developers & Promoters Website",
+# 		"title": "destiny_promoters_website",
 # 		"route": "/destiny_promoters_website",
 # 		"has_permission": "destiny_promoters_website.api.permission.has_app_permission"
 # 	}

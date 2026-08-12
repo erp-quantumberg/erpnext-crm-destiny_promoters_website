@@ -119,8 +119,10 @@
             </iframe>
         </div>
 
+        <!-- Amenities 
+        <BuildingAmenities />-->
         <!-- Amenities -->
-        <BuildingAmenities />
+<BuildingAmenities :amenities="property.amenities" />
     </div>
 
     <div v-else class="text-center py-14">
@@ -172,7 +174,8 @@ const mapPropertyData = (data) => ({
     description: data.description,
     projectLocation: extractIframeSrc(data.project_location),
     carouselImages: data.carousel_images?.map(img => img.image) || [],
-    galleryImages: data.gallery_images?.map(img => img.image) || []
+    galleryImages: data.gallery_images?.map(img => img.image) || [],
+    amenities: data.amenities || []
 })
 
 /* 🔴 SINGLE SOURCE OF TRUTH FETCH */

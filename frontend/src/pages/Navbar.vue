@@ -5,7 +5,7 @@
                 <!-- Logo -->
                 <div class="flex items-center space-x-2 py-2">
                     <router-link to="/">
-                        <img src="https://www.destinypromoters.in/files/destiny-developers-promoters.png" alt="Logo" class="h-[60px]" />
+                        <img src="https://www.destinypromoters.in/files/destiny-logo.png" alt="Logo" class="h-[60px]" />
                     </router-link>
                 </div>
 

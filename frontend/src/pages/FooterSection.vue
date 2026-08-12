@@ -5,7 +5,7 @@
             <div class="flex flex-col md:flex-row items-center justify-between px-8 py-6">
                 <!-- Logo -->
                 <div class="flex items-center">
-                    <img src="https://www.destinypromoters.in/files/destiny-developers-promoters.png"
+                    <img src="https://www.destinypromoters.in/files/destiny-logo.png"
                         alt="Destiny Developers & Promoters" class="h-[60px] ml-4 md:ml-10 mt-2" />
                 </div>
 
@@ -58,7 +58,7 @@
                     </p>
 
                     <p class=" text-gray-800 pt-2 text-[14px]">
-                        Destiny Developers & Promoters have been in the diversified business of <br />
+                        Destiny Developers & Promoters have been in the diversified<br> business of 
                         real estate sector over the last 5 years.
                     </p>
                 </div>

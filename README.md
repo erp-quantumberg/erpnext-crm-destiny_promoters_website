@@ -5,7 +5,7 @@
 Destiny_Promoters_Website
 =======
 >>>>>>> 0437968 (New Update added ListingDetails and contact us page)
-### Destiny Developers & Promoters Website
+### destiny_promoters_website
 
 Building a new fresh website for Destiny Developers & Promoters
 

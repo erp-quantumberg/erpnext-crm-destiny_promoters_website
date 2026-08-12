@@ -258,4 +258,58 @@ def get_project(url):
 
     data["custom_gallery"] = list(gallery_grouped.values())
 
+    #return data
+ # ==========================================================
+    # AMENITIES
+    # ==========================================================
+
+    amenity_rows = frappe.get_all(
+        "Real Estate Project Amenity",
+        filters={
+            "parent": project.name,
+            "parenttype": "Real Estate Project"
+        },
+        fields=[
+            "name",
+            "amenity",
+            "idx"
+        ],
+        order_by="idx asc"
+    )
+
+    amenities = []
+
+    for row in amenity_rows:
+
+        if not row.amenity:
+            continue
+
+        amenity_data = frappe.db.get_value(
+            "Amenity Master",
+            row.amenity,
+            [
+                "amenity_name",
+                "image",
+                "is_active"
+            ],
+            as_dict=True
+        )
+
+        if not amenity_data:
+            continue
+
+        # Only Active Amenities
+        if not amenity_data.is_active:
+            continue
+
+        amenities.append({
+            "name": row.name,
+            "amenity": row.amenity,
+            "amenity_name": amenity_data.amenity_name,
+            "image": amenity_data.image,
+            "idx": row.idx
+        })
+
+    data["amenities"] = amenities
+
     return data
