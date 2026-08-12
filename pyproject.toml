@@ -3,7 +3,7 @@ name = "destiny_promoters_website"
 authors = [
     { name = "Nitish", email = "nitishmashal0@gmail.com"}
 ]
-description = "Building a new fresh website for destiny promoters"
+description = "Building a new fresh website for Destiny Developers & Promoters"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]

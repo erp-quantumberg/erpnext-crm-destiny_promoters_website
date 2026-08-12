@@ -27,6 +27,8 @@
   "description",
   "thumbnail",
   "is_active",
+  "section_break_huwf",
+  "amenities",
   "section_break_drmb",
   "carousel_images",
   "gallery_images",
@@ -171,12 +173,23 @@
    "fieldname": "is_active",
    "fieldtype": "Check",
    "label": "Is Active"
+  },
+  {
+   "fieldname": "section_break_huwf",
+   "fieldtype": "Section Break",
+   "label": "Amenities"
+  },
+  {
+   "fieldname": "amenities",
+   "fieldtype": "Table",
+   "label": "Amenities",
+   "options": "Real Estate Project Amenity"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2026-03-02 15:07:52.417902",
+ "modified": "2026-08-11 13:57:19.939440",
  "modified_by": "Administrator",
  "module": "Destiny Promoters Website",
  "name": "Real Estate Project",

@@ -5,7 +5,8 @@
             </div>
             <!-- Left: Image -->
             <div class="col-md-5 text-center">
-                <img src="../assets/images/family.png" alt="Family" class="img-fluid object-cover rounded-3" style="max-height: 500px;" />
+                <img src="../assets/images/family.png" alt="Family" class="img-fluid object-cover rounded-3"
+                    style="max-height: 500px;" />
             </div>
             <!-- Right: Text -->
             <div class="col-md-6">
@@ -18,14 +19,17 @@
                         end,
                         love always brings you back home.</p>
 
-                    <p class="">At Destiny Promoters, we understand the emotional and financial importance of owning the
+                    <p class="">At Destiny Developers & Promoters, we understand the emotional and financial importance
+                        of
+                        owning the
                         perfect home. Our mission is to help individuals and families find properties that not only meet
                         their needs but also fulfill their dreams of a better lifestyle. We carefully select and present
                         some of the most premium and well-planned real estate projects across Bangalore, ensuring that
                         our
                         clients receive the best options available in the market.</p>
 
-                    <p class="">What truly sets Destiny Promoters apart is our commitment to delivering world-class
+                    <p class="">What truly sets Destiny Developers & Promoters apart is our commitment to delivering
+                        world-class
                         sales
                         and marketing services while maintaining transparency, trust, and customer satisfaction. Our
                         team

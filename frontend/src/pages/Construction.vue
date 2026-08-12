@@ -7,19 +7,18 @@
             <img :src="constructionData.heroImage" class="absolute w-full h-full object-cover" />
 
             <div class="absolute inset-0 bg-black/50"></div>
-            <!-- Overlapping Button --> 
-             <router-link to="contact-us">
+            <!-- Overlapping Button -->
+            <router-link to="contact-us">
                 <button
                     class="absolute top-[33%] right-[8%] bg-[#1a1a1a] text-white px-6 py-2 rounded-md flex items-center text-xs space-x-2 hover:bg-gray-800 transition duration-300 sm:text-xs sm:px-5 sm:py-[10px] xs:text-[10px] xs:px-4 xs:py-2">
-                    <span>{{ constructionData.buttonText }}</span> <span v-if="constructionData.buttonIcon"> 
-                        <svg
-                            xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    <span>{{ constructionData.buttonText }}</span> <span v-if="constructionData.buttonIcon">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
                             stroke="currentColor" class="w-4 h-3">
                             <path stroke-linecap="round" stroke-linejoin="round"
                                 d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
-                        </svg> 
-                    </span> 
-                </button> 
+                        </svg>
+                    </span>
+                </button>
             </router-link>
         </div>
 
@@ -42,7 +41,8 @@
                     </h2>
 
                     <p class="text-gray-700 text-sm mb-3">
-                        At Destiny Promoters, we focus on delivering modern, high-quality real estate solutions that
+                        At Destiny Developers & Promoters, we focus on delivering modern, high-quality real estate
+                        solutions that
                         combine innovation, functionality, and lasting value.
                     </p>
 
@@ -288,8 +288,8 @@ const constructionData = {
     },
 
     fourthSection: {
-        description1: 'Bring your dream space to life with Destiny Promoters. Whether you are planning a modern home, a commercial complex, or a customized workspace, we are here to transform your vision into reality. With expert planning, innovative design, and professional execution, we ensure that every project reflects quality, functionality, and style.',
-        description2: 'Our team works closely with clients to understand their unique requirements and deliver spaces that are thoughtfully designed and perfectly suited to their needs. From concept to completion, Destiny Promoters is committed to building spaces that inspire comfort, productivity, and long-term value.',
+        description1: 'Bring your dream space to life with Destiny Developers & Promoters. Whether you are planning a modern home, a commercial complex, or a customized workspace, we are here to transform your vision into reality. With expert planning, innovative design, and professional execution, we ensure that every project reflects quality, functionality, and style.',
+        description2: 'Our team works closely with clients to understand their unique requirements and deliver spaces that are thoughtfully designed and perfectly suited to their needs. From concept to completion, Destiny Developers & Promoters is committed to building spaces that inspire comfort, productivity, and long-term value.',
         fourthImage: new URL('../assets/images/Construction/construction_3.png', import.meta.url).href
     }
 

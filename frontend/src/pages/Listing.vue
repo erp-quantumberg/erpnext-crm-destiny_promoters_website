@@ -7,7 +7,8 @@
                 Find Your Dream Property
             </div>
             <p class="text-black mt-2 text-[13px]">
-                Welcome to <strong>Destiny Promoters</strong>, where your dream property awaits in every corner of our
+                Welcome to <strong>Destiny Developers & Promoters</strong>, where your dream property awaits in every
+                corner of our
                 beautiful world. Explore our curated selection of properties, each offering a unique story and a chance
                 to redefine your life.
             </p>

@@ -18,11 +18,11 @@ const routes = [
     name: 'Home',
     component: Home,
     meta: {
-      title: 'Destiny Promoters | Best Real Estate Company in Bengaluru',
+      title: 'Destiny Developers & Promoters | Best Real Estate Company in Bengaluru',
       description:
-        'Destiny Promoters is one of the trusted real estate companies in Bengaluru offering premium residential plots, villas, apartments, construction, and interior services.',
+        'Destiny Developers & Promoters is one of the trusted real estate companies in Bengaluru offering premium residential plots, villas, apartments, construction, and interior services.',
       keywords:
-        'Destiny Promoters, Bengaluru Real Estate, Residential Plots, Villas, Apartments, Construction, Interiors'
+        'Destiny Developers & Promoters, Bengaluru Real Estate, Residential Plots, Villas, Apartments, Construction, Interiors'
     }
   },
   {
@@ -30,9 +30,9 @@ const routes = [
     name: 'Listing',
     component: Listing,
     meta: {
-      title: 'Property Listings | Destiny Promoters',
+      title: 'Property Listings | Destiny Developers & Promoters',
       description:
-        'Explore the latest residential and commercial properties from Destiny Promoters in Bengaluru.',
+        'Explore the latest residential and commercial properties from Destiny Developers & Promoters in Bengaluru.',
       keywords:
         'Property Listings, Bengaluru Properties, Residential Plots, Villas, Apartments'
     }
@@ -42,11 +42,11 @@ const routes = [
     name: 'AboutUs',
     component: AboutUs,
     meta: {
-      title: 'About Us | Destiny Promoters',
+      title: 'About Us | Destiny Developers & Promoters',
       description:
-        'Learn about Destiny Promoters, our mission, vision, and commitment to delivering quality real estate projects.',
+        'Learn about Destiny Developers & Promoters, our mission, vision, and commitment to delivering quality real estate projects.',
       keywords:
-        'About Destiny Promoters, Bengaluru Builders, Real Estate Company'
+        'About Destiny Developers & Promoters, Bengaluru Builders, Real Estate Company'
     }
   },
   {
@@ -54,11 +54,11 @@ const routes = [
     name: 'gallery',
     component: gallery,
     meta: {
-      title: 'Gallery | Destiny Promoters',
+      title: 'Gallery | Destiny Developers & Promoters',
       description:
-        'Browse our gallery showcasing completed and ongoing projects by Destiny Promoters.',
+        'Browse our gallery showcasing completed and ongoing projects by Destiny Developers & Promoters.',
       keywords:
-        'Destiny Promoters Gallery, Project Gallery, Construction Gallery'
+        'Destiny Developers & Promoters Gallery, Project Gallery, Construction Gallery'
     }
   },
   {
@@ -66,11 +66,11 @@ const routes = [
     name: 'GalleryPage',
     component: GalleryPage,
     meta: {
-      title: 'Project Gallery | Destiny Promoters',
+      title: 'Project Gallery | Destiny Developers & Promoters',
       description:
         'Explore photos and highlights of our residential and commercial projects.',
       keywords:
-        'Project Gallery, Bengaluru Projects, Destiny Promoters'
+        'Project Gallery, Bengaluru Projects, Destiny Developers & Promoters'
     }
   },
   {
@@ -78,9 +78,9 @@ const routes = [
     name: 'Construction',
     component: Construction,
     meta: {
-      title: 'Construction Services | Destiny Promoters',
+      title: 'Construction Services | Destiny Developers & Promoters',
       description:
-        'Professional residential and commercial construction services by Destiny Promoters.',
+        'Professional residential and commercial construction services by Destiny Developers & Promoters.',
       keywords:
         'Construction Services, Home Construction, Building Contractors, Bengaluru'
     }
@@ -90,7 +90,7 @@ const routes = [
     name: 'Interiors',
     component: Interiors,
     meta: {
-      title: 'Interior Design Services | Destiny Promoters',
+      title: 'Interior Design Services | Destiny Developers & Promoters',
       description:
         'Modern and customized interior design solutions for homes, apartments, and offices.',
       keywords:
@@ -103,9 +103,9 @@ const routes = [
     component: ListingDetails,
     props: true,
     meta: {
-      title: 'Property Details | Destiny Promoters',
+      title: 'Property Details | Destiny Developers & Promoters',
       description:
-        'View complete details about this property offered by Destiny Promoters.',
+        'View complete details about this property offered by Destiny Developers & Promoters.',
       keywords:
         'Property Details, Bengaluru Property, Real Estate'
     }
@@ -115,11 +115,11 @@ const routes = [
     name: 'ContactUs',
     component: ContactUs,
     meta: {
-      title: 'Contact Us | Destiny Promoters',
+      title: 'Contact Us | Destiny Developers & Promoters',
       description:
-        'Contact Destiny Promoters for property enquiries, construction services, and interior design.',
+        'Contact Destiny Developers & Promoters for property enquiries, construction services, and interior design.',
       keywords:
-        'Contact Destiny Promoters, Bengaluru Real Estate Contact'
+        'Contact Destiny Developers & Promoters, Bengaluru Real Estate Contact'
     }
   },
   {
@@ -127,11 +127,11 @@ const routes = [
     name: 'PrivacyPolicy',
     component: PrivacyPolicy,
     meta: {
-      title: 'Privacy Policy | Destiny Promoters',
+      title: 'Privacy Policy | Destiny Developers & Promoters',
       description:
-        'Read the privacy policy of Destiny Promoters regarding the collection and use of personal information.',
+        'Read the privacy policy of Destiny Developers & Promoters regarding the collection and use of personal information.',
       keywords:
-        'Privacy Policy, Destiny Promoters'
+        'Privacy Policy, Destiny Developers & Promoters'
     }
   },
   {
@@ -139,11 +139,11 @@ const routes = [
     name: 'TermsAndConditions',
     component: TermsAndConditions,
     meta: {
-      title: 'Terms and Conditions | Destiny Promoters',
+      title: 'Terms and Conditions | Destiny Developers & Promoters',
       description:
-        'Read the terms and conditions governing the use of the Destiny Promoters website.',
+        'Read the terms and conditions governing the use of the Destiny Developers & Promoters website.',
       keywords:
-        'Terms and Conditions, Destiny Promoters'
+        'Terms and Conditions, Destiny Developers & Promoters'
     }
   }
 ]
@@ -171,7 +171,7 @@ function updateMetaTag(name, content) {
 
 // Update SEO after every route change
 router.afterEach((to) => {
-  document.title = to.meta.title || 'Destiny Promoters'
+  document.title = to.meta.title || 'Destiny Developers & Promoters'
 
   updateMetaTag('description', to.meta.description)
   updateMetaTag('keywords', to.meta.keywords)
@@ -180,7 +180,7 @@ router.afterEach((to) => {
   updateMetaTag('robots', 'index, follow')
 
   // Author
-  updateMetaTag('author', 'Destiny Promoters')
+  updateMetaTag('author', 'Destiny Developers & Promoters')
 
   // Canonical URL
   let canonical = document.querySelector("link[rel='canonical']")
@@ -213,7 +213,7 @@ router.afterEach((to) => {
   setOGTag('og:description', to.meta.description)
   setOGTag('og:type', 'website')
   setOGTag('og:url', window.location.href)
-  setOGTag('og:site_name', 'Destiny Promoters')
+  setOGTag('og:site_name', 'Destiny Developers & Promoters')
 
   // Twitter Tags
   const setTwitterTag = (name, content) => {

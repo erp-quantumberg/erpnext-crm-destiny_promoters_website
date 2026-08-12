@@ -6,14 +6,16 @@
             <div class="text-7xl font-bold pb-2">Privacy Policy</div>
             <div class="text-[90%] text-gray-800">
                 <div class="pb-3">Last updated: 2025-09-01</div>
-                <p>At Destiny Promoters, accessible from https://www.destinypromoters.in/, one of our main priorities is
+                <p>At Destiny Developers & Promoters, accessible from https://www.destinypromoters.in/, one of our main
+                    priorities is
                     the privacy of our visitors. This Privacy Policy document contains types of information that is
-                    collected and recorded by Destiny Promoters and how we use it.</p>
+                    collected and recorded by Destiny Developers & Promoters and how we use it.</p>
                 <p>If you have additional questions or require more information about our Privacy Policy, do not
                     hesitate to contact us.</p>
                 <p>
                     This Privacy Policy applies only to our online activities and is valid for visitors to our website
-                    with regards to the information that they shared and/or collect in Destiny Promoters. This policy is
+                    with regards to the information that they shared and/or collect in Destiny Developers & Promoters.
+                    This policy is
                     not applicable to any information collected offline or via channels other than this website. Our
                     Privacy Policy was created with the help of the Free Privacy Policy Generator.
                 </p>
@@ -52,7 +54,8 @@
 
             <div class="text-7xl font-bold pb-2">Log Files</div>
             <div class="text-[90%] text-gray-800">
-                <p>Destiny Promoters follows a standard procedure of using log files. These files log visitors when they
+                <p>Destiny Developers & Promoters follows a standard procedure of using log files. These files log
+                    visitors when they
                     visit websites. All hosting companies do this and a part of hosting services' analytics. The
                     information collected by log files include internet protocol (IP) addresses, browser type, Internet
                     Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the number of
@@ -63,7 +66,9 @@
 
             <div class="text-7xl font-bold pb-2">Cookies and Web Beacons</div>
             <div class="text-[90%] text-gray-800">
-                <p>Like any other website, Destiny Promoters uses 'cookies'. These cookies are used to store information
+                <p>Like any other website, Destiny Developers & Promoters uses 'cookies'. These cookies are used to
+                    store
+                    information
                     including visitors' preferences, and the pages on the website that the visitor accessed or visited.
                     The information is used to optimize the users' experience by customizing our web page content based
                     on visitors' browser type and/or other information..</p>
@@ -71,7 +76,9 @@
 
             <div class="text-7xl font-bold pb-2">Third Party Privacy Policies</div>
             <div class="text-[90%] text-gray-800">
-                <p>Destiny Promoters's Privacy Policy does not apply to other advertisers or websites. Thus, we are
+                <p>Destiny Developers & Promoters's Privacy Policy does not apply to other advertisers or websites.
+                    Thus,
+                    we are
                     advising you to consult the respective Privacy Policies of these third-party ad servers for more
                     detailed information. It may include their practices and instructions about how to opt-out of
                     certain options.</p>

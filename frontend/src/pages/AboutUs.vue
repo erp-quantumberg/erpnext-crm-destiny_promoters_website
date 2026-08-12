@@ -34,11 +34,11 @@
                     </div>
 
                     <div class="text-4xl font-bold mb-4">
-                        Destiny Promoters, Bangalore
+                        Destiny Developers & Promoters, Bangalore
                     </div>
 
                     <p class="text-gray-700 mb-3">
-                        Destiny Promoters is a dynamic real estate solutions company based in Bangalore,
+                        Destiny Developers & Promoters is a dynamic real estate solutions company based in Bangalore,
                         specializing in Sales, Marketing, Construction, and Interior Design.
                     </p>
 
@@ -164,7 +164,7 @@
                 </div>
 
                 <p class="mb-4 text-gray-700">
-                    At Destiny Promoters, we believe in more than just building properties —
+                    At Destiny Developers & Promoters, we believe in more than just building properties —
                     we build trust, value, and lasting partnerships.
                 </p>
 

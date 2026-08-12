@@ -118,7 +118,8 @@
                     </h2>
 
                     <div class="text-[14px]">
-                        <p> At Destiny Promoters, we believe that a house becomes a true home when it reflects the
+                        <p> At Destiny Developers & Promoters, we believe that a house becomes a true home when it
+                            reflects the
                             lifestyle, personality, and aspirations of the people who live in it. A home is more than
                             just a physical space—it is where comfort meets happiness, where families build their
                             future, and where countless memories are created over time. </p>
@@ -129,7 +130,8 @@
                         <p> From smart space planning to elegant design elements, we ensure that every detail
                             contributes to a comfortable and inspiring environment. We believe that a well-planned home
                             improves not just the way people live, but also the way they experience everyday life. </p>
-                        <p> Driven by innovation, professionalism, and a commitment to excellence, Destiny Promoters
+                        <p> Driven by innovation, professionalism, and a commitment to excellence, Destiny Developers
+                            Promoters
                             continues to deliver homes that combine style, comfort, and lasting value. Our mission is
                             simple—to create spaces where people feel connected, relaxed, and proud to call their own,
                             turning houses into homes, one design at a time. 🏡 </p>

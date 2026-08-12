@@ -10,9 +10,10 @@
 
             <div class="text-7xl font-bold pb-2">Introduction</div>
             <div class="text-[90%] text-gray-800">
-                <p>Welcome to Destiny Promoters (“Company”, “we”, “our”, “us”)!</p>
+                <p>Welcome to Destiny Developers & Promoters (“Company”, “we”, “our”, “us”)!</p>
                 <p>These Terms of Service (“Terms”, “Terms of Service”) govern your use of our website located at
-                    https://www.destinypromoters.in/ (together or individually “Service”) operated by Destiny Promoters.
+                    https://www.destinypromoters.in/ (together or individually “Service”) operated by Destiny Developers
+                    Promoters.
                 </p>
 
                 <p>Our Privacy Policy also governs your use of our Service and explains how we collect, safeguard and
@@ -65,10 +66,12 @@
                     your Content subject to these Terms.
                 </p>
 
-                <p>Destiny Promoters has the right but not the obligation to monitor and edit all Content provided by
+                <p>Destiny Developers & Promoters has the right but not the obligation to monitor and edit all Content
+                    provided by
                     users.</p>
 
-                <p>In addition, Content found on or through this Service are the property of Destiny Promoters or used
+                <p>In addition, Content found on or through this Service are the property of Destiny Developers
+                    Promoters or used
                     with permission. You may not distribute, modify, transmit, reuse, download, repost, copy, or use
                     said Content, whether in whole or in part, for commercial purposes or for personal gain, without
                     express advance written permission from us.</p>
@@ -76,7 +79,9 @@
 
             <div class="text-7xl font-bold pb-2">Cookies and Web Beacons</div>
             <div class="text-[90%] text-gray-800">
-                <p>Like any other website, Destiny Promoters uses 'cookies'. These cookies are used to store information
+                <p>Like any other website, Destiny Developers & Promoters uses 'cookies'. These cookies are used to
+                    store
+                    information
                     including visitors' preferences, and the pages on the website that the visitor accessed or visited.
                     The information is used to optimize the users' experience by customizing our web page content based
                     on visitors' browser type and/or other information..</p>
@@ -169,7 +174,8 @@
             <div class="text-7xl font-bold pb-2">Intellectual Property</div>
             <div class="text-[90%] text-gray-800">
                 <p>Service and its original content (excluding Content provided by users), features and functionality
-                    are and will remain the exclusive property of Destiny Promoters and its licensors. Service is
+                    are and will remain the exclusive property of Destiny Developers & Promoters and its licensors.
+                    Service is
                     protected by copyright, trademark, and other laws of and foreign countries. Our trademarks may not
                     be used in connection with any product or service without the prior written consent of Destiny
                     Promoters.</p>

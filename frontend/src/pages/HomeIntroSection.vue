@@ -11,7 +11,7 @@
                     </div>
                     <div class="text-[14px]">
                         <p class=" mt-3 pb-1">
-                            At Destiny Promoters, we believe that finding the right home is one of the most
+                            At Destiny Developers & Promoters, we believe that finding the right home is one of the most
                             important
                             decisions in a person's life. A home is not just a structure made of bricks and walls—it
                             is
@@ -22,7 +22,8 @@
                             lifestyle, needs, and aspirations.
                         </p>
                         <p class="">
-                            Destiny Promoters is a leading real estate agency in Bangalore, supported by a team of
+                            Destiny Developers & Promoters is a leading real estate agency in Bangalore, supported by a
+                            team of
                             experienced and dedicated professionals who are committed to delivering the highest
                             level of
                             service. With deep knowledge of the local real estate market and a strong network of

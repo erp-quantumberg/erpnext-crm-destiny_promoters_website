@@ -1,71 +1,71 @@
 {
- "actions": [],
- "allow_rename": 1,
- "creation": "2026-02-10 11:45:06.137018",
- "doctype": "DocType",
- "engine": "InnoDB",
- "field_order": [
-  "gallery_image_section",
-  "project",
-  "image",
-  "add_gallery_image_section",
-  "upload_gallery_image"
- ],
- "fields": [
-  {
-   "fieldname": "gallery_image_section",
-   "fieldtype": "Section Break",
-   "hidden": 1,
-   "label": "Gallery Image"
-  },
-  {
-   "fieldname": "project",
-   "fieldtype": "Link",
-   "in_list_view": 1,
-   "label": "Project",
-   "options": "Real Estate Project"
-  },
-  {
-   "fieldname": "image",
-   "fieldtype": "Attach Image",
-   "label": "Image"
-  },
-  {
-   "fieldname": "add_gallery_image_section",
-   "fieldtype": "Section Break",
-   "label": "Add Gallery Image"
-  },
-  {
-   "fieldname": "upload_gallery_image",
-   "fieldtype": "Table",
-   "label": "Upload Gallery Image",
-   "options": "Gallery"
-  }
- ],
- "grid_page_length": 50,
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2026-02-19 16:56:31.079810",
- "modified_by": "Administrator",
- "module": "Destiny Promoters Website",
- "name": "Gallery Image",
- "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
- "row_format": "Dynamic",
- "sort_field": "modified",
- "sort_order": "DESC",
- "states": []
+  "actions": [],
+  "allow_rename": 1,
+  "creation": "2026-02-10 11:45:06.137018",
+  "doctype": "DocType",
+  "engine": "InnoDB",
+  "field_order": [
+    "gallery_image_section",
+    "project",
+    "image",
+    "add_gallery_image_section",
+    "upload_gallery_image"
+  ],
+  "fields": [
+    {
+      "fieldname": "gallery_image_section",
+      "fieldtype": "Section Break",
+      "hidden": 1,
+      "label": "Gallery Image"
+    },
+    {
+      "fieldname": "project",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Project",
+      "options": "Real Estate Project"
+    },
+    {
+      "fieldname": "image",
+      "fieldtype": "Attach Image",
+      "label": "Image"
+    },
+    {
+      "fieldname": "add_gallery_image_section",
+      "fieldtype": "Section Break",
+      "label": "Add Gallery Image"
+    },
+    {
+      "fieldname": "upload_gallery_image",
+      "fieldtype": "Table",
+      "label": "Upload Gallery Image",
+      "options": "Gallery"
+    }
+  ],
+  "grid_page_length": 50,
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2026-02-19 16:56:31.079810",
+  "modified_by": "Administrator",
+  "module": "Destiny Developers & Promoters Website",
+  "name": "Gallery Image",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "row_format": "Dynamic",
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": []
 }

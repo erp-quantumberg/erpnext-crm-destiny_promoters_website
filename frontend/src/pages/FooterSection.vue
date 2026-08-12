@@ -5,8 +5,8 @@
             <div class="flex flex-col md:flex-row items-center justify-between px-8 py-6">
                 <!-- Logo -->
                 <div class="flex items-center">
-                    <img src="../assets/images/DP_Logo.png" alt="Destiny Promoters"
-                        class="h-[60px] ml-4 md:ml-10 mt-2" />
+                    <img src="https://www.destinypromoters.in/files/destiny-developers-promoters.png"
+                        alt="Destiny Developers & Promoters" class="h-[60px] ml-4 md:ml-10 mt-2" />
                 </div>
 
                 <!-- Social -->
@@ -58,7 +58,7 @@
                     </p>
 
                     <p class=" text-gray-800 pt-2 text-[14px]">
-                        Destiny Promoters have been in the diversified business of <br />
+                        Destiny Developers & Promoters have been in the diversified business of <br />
                         real estate sector over the last 5 years.
                     </p>
                 </div>
@@ -106,7 +106,7 @@
 
             <!-- Bottom -->
             <div class="flex flex-col md:flex-row items-center px-8 py-2 text-black gap-10 md:gap-40 pb-5 text-[15px]">
-                <span>Copyright © {{ currentYear }}. Destiny Promoters</span>
+                <span>Copyright © {{ currentYear }}. Destiny Developers & Promoters</span>
                 <a href="https://quantumberg.com/" class="text-black"><span>Powered By: Quantumberg Technologies Pvt
                         Ltd</span></a>
             </div>
