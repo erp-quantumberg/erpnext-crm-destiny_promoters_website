@@ -30,10 +30,10 @@ for property, gallery, newsletter, and contact-enquiry data.
 
 ## Frappe app dependencies
 
-| App | Required | Notes |
-| --- | --- | --- |
-| Frappe Framework | Yes | Provides the framework and site services; installed and managed by Bench. |
-| ERPNext | No | This app uses its own DocTypes and does not depend on ERPNext. |
+| App              | Required | Notes                                                                     |
+| ---------------- | -------- | ------------------------------------------------------------------------- |
+| Frappe Framework | Yes      | Provides the framework and site services; installed and managed by Bench. |
+| ERPNext          | No       | This app uses its own DocTypes and does not depend on ERPNext.            |
 
 No additional Frappe apps are declared in `hooks.py`. Frontend libraries are
 declared in [`frontend/package.json`](frontend/package.json). The Python app
@@ -45,7 +45,7 @@ From the bench directory, fetch the app and install it on the target site:
 
 ```bash
 cd /path/to/your-bench
-bench get-app https://github.com/quantumberg2/qdynamics-realestate-frontend-custoom-app
+bench get-app https://github.com/erp-quantumberg/erpnext-crm-destiny_promoters_website.git
 bench --site your-site install-app destiny_promoters_website
 ```
 
@@ -105,17 +105,17 @@ history-mode routes are mapped to the SPA entry point in
 
 The app exposes these whitelisted Frappe methods under `/api/method/`:
 
-| Method | Purpose |
-| --- | --- |
-| `destiny_promoters_website.api.project_api.get_projects` | Fetch active projects; optional `tag` and `status` filters |
-| `destiny_promoters_website.api.project_api.get_project` | Fetch one active project by its URL slug |
-| `destiny_promoters_website.api.project_api.get_gallery_projects` | Fetch projects with custom gallery content |
-| `destiny_promoters_website.api.gallery.get_gallery_images` | Fetch active general gallery images |
-| `destiny_promoters_website.api.gallery_images.get_gallery_projects` | Fetch projects with Gallery Image records |
-| `destiny_promoters_website.api.gallery_images.get_project_gallery_tags` | Fetch tags for a project gallery |
-| `destiny_promoters_website.api.gallery_images.get_gallery_images` | Fetch project gallery images, optionally filtered by tag |
-| `destiny_promoters_website.api.newsletter.subscribe` | Create or check a newsletter subscription |
-| `destiny_promoters_website.contact_api.send_suggestion` | Save a contact suggestion and send an email |
+| Method                                                                  | Purpose                                                    |
+| ----------------------------------------------------------------------- | ---------------------------------------------------------- |
+| `destiny_promoters_website.api.project_api.get_projects`                | Fetch active projects; optional `tag` and `status` filters |
+| `destiny_promoters_website.api.project_api.get_project`                 | Fetch one active project by its URL slug                   |
+| `destiny_promoters_website.api.project_api.get_gallery_projects`        | Fetch projects with custom gallery content                 |
+| `destiny_promoters_website.api.gallery.get_gallery_images`              | Fetch active general gallery images                        |
+| `destiny_promoters_website.api.gallery_images.get_gallery_projects`     | Fetch projects with Gallery Image records                  |
+| `destiny_promoters_website.api.gallery_images.get_project_gallery_tags` | Fetch tags for a project gallery                           |
+| `destiny_promoters_website.api.gallery_images.get_gallery_images`       | Fetch project gallery images, optionally filtered by tag   |
+| `destiny_promoters_website.api.newsletter.subscribe`                    | Create or check a newsletter subscription                  |
+| `destiny_promoters_website.contact_api.send_suggestion`                 | Save a contact suggestion and send an email                |
 
 These endpoints read and write the app's Frappe DocTypes. Populate and maintain
 project and gallery records in the Frappe Desk for content to appear on the
